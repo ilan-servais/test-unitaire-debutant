@@ -184,14 +184,14 @@ function addition(a, b) {
 
 ## Checklist du projet
 
-- [x] ✅ Initialisation du projet avec `npm init -y`
-- [x] ✅ Installation de Jest avec `npm install --save-dev jest`
-- [x] ✅ Configuration du script `"test"` dans `package.json`
-- [x] ✅ Création de la fonction `addition()` dans `math.js`
-- [x] ✅ Écriture de tests unitaires dans `math.test.js`
-- [x] ✅ Exécution de `npm test` (succès)
-- [x] ✅ Simulation d'un test échoué
-- [x] ✅ Correction de la fonction pour repasser le test
-- [x] ✅ Ajout des images dans un dossier `images`
-- [x] ✅ Mise à jour du fichier `README.md`
-- [x] ✅ Dépôt GitHub avec commits clairs
+- ✅ Initialisation du projet avec `npm init -y`
+- ✅ Installation de Jest avec `npm install --save-dev jest`
+- ✅ Configuration du script `"test"` dans `package.json`
+- ✅ Création de la fonction `addition()` dans `math.js`
+- ✅ Écriture de tests unitaires dans `math.test.js`
+- ✅ Exécution de `npm test` (succès)
+- ✅ Simulation d'un test échoué
+- ✅ Correction de la fonction pour repasser le test
+- ✅ Ajout des images dans un dossier `images`
+- ✅ Mise à jour du fichier `README.md`
+- ✅ Dépôt GitHub avec commits clairs
