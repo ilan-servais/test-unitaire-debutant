@@ -196,4 +196,4 @@ function addition(a, b) {
 - [x] ✅ Correction de la fonction pour repasser le test
 - [x] ✅ Ajout des images dans un dossier `images`
 - [x] ✅ Mise à jour du fichier `README.md`
-- [ ] ❓ Dépôt GitHub avec commits clairs
+- [x] ✅ Dépôt GitHub avec commits clairs
