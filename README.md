@@ -26,6 +26,8 @@ cd test-unitaire-debutant
 npm init -y
 ```
 
+![Description](./images/01-initialisation-node.png)
+
 📝 Création du projet Node.js avec la commande `npm init -y` qui génère automatiquement un fichier package.json avec les valeurs par défaut.
 
 ## Étape 2 - Installation de Jest
@@ -35,6 +37,8 @@ Installation de Jest comme dépendance de développement:
 ```bash
 npm install --save-dev jest
 ```
+
+![Description](./images/02-installation-jest.png)
 
 📝 Installation de Jest, le framework de test que nous utiliserons pour écrire et exécuter nos tests unitaires.
 
