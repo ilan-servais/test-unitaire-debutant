@@ -21,12 +21,11 @@ Ce projet est un tutoriel pour apprendre les bases des tests unitaires avec PHPU
 Création d'un nouveau projet PHP avec Composer:
 
 ```bash
-mkdir test-unitaire-php-debutant
-cd test-unitaire-php-debutant
 composer init
 ```
 
 ![Initialisation du projet avec Composer](./images/01-composer-init.png)
+![Initialisation du projet avec Composer](./images/01-composer-init-2.png)
 
 📝 Création du projet PHP avec Composer qui génère un fichier composer.json pour gérer les dépendances.
 

@@ -21,8 +21,6 @@ Ce projet est un tutoriel pour apprendre les bases des tests unitaires avec Jest
 Création d'un nouveau projet Node.js avec npm:
 
 ```bash
-mkdir test-unitaire-debutant
-cd test-unitaire-debutant
 npm init -y
 ```
 
