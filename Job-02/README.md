@@ -50,8 +50,6 @@ mkdir src
 mkdir tests
 ```
 
-![Création de la structure du projet](./images/03-structure-projet.png)
-
 📝 Organisation du projet avec un dossier src/ pour le code source et un dossier tests/ pour les tests unitaires.
 
 ## Étape 4 - Création de la classe Math
@@ -78,8 +76,6 @@ class Math
     }
 }
 ```
-
-![Création de la classe Math](./images/04-classe-math.png)
 
 📝 Création d'une classe Math avec une méthode addition qui prend deux paramètres et retourne leur somme.
 
@@ -142,8 +138,6 @@ class MathTest extends TestCase
 }
 ```
 
-![Création du test unitaire](./images/05-test-unitaire.png)
-
 📝 Création d'une classe de test qui hérite de TestCase avec plusieurs méthodes de test pour vérifier le fonctionnement de la méthode addition.
 
 ## Étape 6 - Exécution des tests réussis
@@ -168,7 +162,7 @@ Lancement des tests:
 vendor/bin/phpunit tests
 ```
 
-![Tests réussis](./images/06-tests-reussis.png)
+![Tests réussis](./images/03-tests-reussis.png)
 
 📝 Exécution des tests avec succès, tous les tests passent car notre méthode addition est correctement implémentée.
 
@@ -189,7 +183,7 @@ Lancement des tests:
 vendor/bin/phpunit tests
 ```
 
-![Tests échoués](./images/07-tests-echoues.png)
+![Tests échoués](./images/04-tests-echoues.png)
 
 📝 Simulation d'une erreur dans notre code pour voir comment PHPUnit signale les échecs de tests. Nous avons remplacé l'addition par une soustraction.
 
@@ -210,7 +204,7 @@ Lancement des tests:
 vendor/bin/phpunit tests
 ```
 
-![Tests à nouveau réussis](./images/08-tests-corriges.png)
+![Tests à nouveau réussis](./images/05-tests-corriges.png)
 
 📝 Correction de l'erreur et vérification que tous les tests passent à nouveau.
 
@@ -245,15 +239,15 @@ vendor/bin/phpunit tests
 
 ## Checklist du projet
 
-- [ ] Initialisation du projet avec `composer init`
-- [ ] Installation de PHPUnit avec `composer require --dev phpunit/phpunit`
-- [ ] Création des dossiers src/ et tests/
-- [ ] Création de la classe Math dans src/Math.php
-- [ ] Création du test dans tests/MathTest.php
-- [ ] Configuration de l'autoloading dans composer.json
-- [ ] Exécution réussie des tests
-- [ ] Simulation d'une erreur et vérification de l'échec des tests
-- [ ] Correction de l'erreur et vérification du succès des tests
-- [ ] Ajout des images dans le dossier images/
-- [ ] Mise à jour du fichier README.md
-- [ ] Dépôt GitHub avec commits clairs
+- ✅ Initialisation du projet avec `composer init`
+- ✅ Installation de PHPUnit avec `composer require --dev phpunit/phpunit`
+- ✅ Création des dossiers src/ et tests/
+- ✅ Création de la classe Math dans src/Math.php
+- ✅ Création du test dans tests/MathTest.php
+- ✅ Configuration de l'autoloading dans composer.json
+- ✅ Exécution réussie des tests
+- ✅ Simulation d'une erreur et vérification de l'échec des tests
+- ✅ Correction de l'erreur et vérification du succès des tests
+- ✅ Ajout des images dans le dossier images/
+- ✅ Mise à jour du fichier README.md
+- ✅ Dépôt GitHub avec commits clairs
