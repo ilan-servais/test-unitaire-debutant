@@ -26,8 +26,6 @@ cd test-unitaire-debutant
 npm init -y
 ```
 
-![Initialisation du projet avec npm](./images/01-initialisation-node.png)
-
 📝 Création du projet Node.js avec la commande `npm init -y` qui génère automatiquement un fichier package.json avec les valeurs par défaut.
 
 ## Étape 2 - Installation de Jest
@@ -37,8 +35,6 @@ Installation de Jest comme dépendance de développement:
 ```bash
 npm install --save-dev jest
 ```
-
-![Installation de Jest](./images/02-installation-jest.png)
 
 📝 Installation de Jest, le framework de test que nous utiliserons pour écrire et exécuter nos tests unitaires.
 
@@ -51,8 +47,6 @@ Modification du fichier package.json pour ajouter le script de test:
   "test": "jest"
 }
 ```
-
-![Configuration du package.json](./images/03-configuration-package-json.png)
 
 📝 Configuration du script de test dans le fichier package.json pour pouvoir lancer Jest avec la commande `npm test`.
 
@@ -75,8 +69,6 @@ module.exports = {
   addition
 };
 ```
-
-![Création du fichier math.js](./images/04-creation-fonction.png)
 
 📝 Création d'une fonction simple d'addition qui prend deux paramètres et retourne leur somme.
 
@@ -115,8 +107,6 @@ describe('Fonction addition', () => {
 });
 ```
 
-![Création des tests unitaires](./images/05-creation-tests.png)
-
 📝 Création de plusieurs tests unitaires pour vérifier le bon fonctionnement de notre fonction d'addition dans différents scénarios.
 
 ## Étape 6 - Exécution des tests réussis
@@ -127,7 +117,7 @@ Lancement des tests avec la commande npm test:
 npm test
 ```
 
-![Tests réussis](./images/06-tests-reussis.png)
+![Tests réussis](./images/03-test-valid.png)
 
 📝 Exécution des tests avec succès, tous les tests passent car notre fonction d'addition est correctement implémentée.
 
@@ -141,7 +131,9 @@ function addition(a, b) {
 }
 ```
 
-![Tests échoués](./images/07-tests-echoues.png)
+![Tests échoués - partie 1](./images/04-test-failed.png)
+![Tests échoués - partie 2](./images/05-test-failed.png)
+![Tests échoués - partie 3](./images/06-test-failed.png)
 
 📝 Simulation d'un bug dans notre code pour voir comment Jest signale les échecs de tests. Nous avons remplacé l'addition par une soustraction.
 
@@ -155,7 +147,7 @@ function addition(a, b) {
 }
 ```
 
-![Correction et tests réussis](./images/08-correction-succes.png)
+![Correction et tests réussis](./images/07-test-valid.png)
 
 📝 Correction du bug précédemment introduit et vérification que tous les tests passent à nouveau.
 
@@ -190,14 +182,14 @@ function addition(a, b) {
 
 ## Checklist du projet
 
-- [ ] ✅ Initialisation du projet avec `npm init -y`
-- [ ] ✅ Installation de Jest avec `npm install --save-dev jest`
-- [ ] ✅ Configuration du script `"test"` dans `package.json`
-- [ ] ✅ Création de la fonction `addition()` dans `math.js`
-- [ ] ✅ Écriture de tests unitaires dans `math.test.js`
-- [ ] ✅ Exécution de `npm test` (succès)
-- [ ] ✅ Simulation d'un test échoué
-- [ ] ✅ Correction de la fonction pour repasser le test
-- [ ] ✅ Ajout des images dans un dossier `images`
-- [ ] ✅ Mise à jour du fichier `README.md`
+- [x] ✅ Initialisation du projet avec `npm init -y`
+- [x] ✅ Installation de Jest avec `npm install --save-dev jest`
+- [x] ✅ Configuration du script `"test"` dans `package.json`
+- [x] ✅ Création de la fonction `addition()` dans `math.js`
+- [x] ✅ Écriture de tests unitaires dans `math.test.js`
+- [x] ✅ Exécution de `npm test` (succès)
+- [x] ✅ Simulation d'un test échoué
+- [x] ✅ Correction de la fonction pour repasser le test
+- [x] ✅ Ajout des images dans un dossier `images`
+- [x] ✅ Mise à jour du fichier `README.md`
 - [ ] ❓ Dépôt GitHub avec commits clairs
