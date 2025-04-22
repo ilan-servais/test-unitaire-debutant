@@ -183,7 +183,6 @@ function addition(a, b) {
 - [Documentation Jest](https://jestjs.io/docs/en/getting-started)
 - [Guide JavaScript MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)
 - [Guide des tests unitaires par Martin Fowler](https://martinfowler.com/bliki/UnitTest.html)
-- [Test unitaire PHP (Job-02)](./Job-02/README.md)
 
 ## Checklist du projet
 
