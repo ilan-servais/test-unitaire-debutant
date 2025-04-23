@@ -101,6 +101,17 @@ npm test
 ```
 ![tests](./images/phpunit-test2.png)
 
+## Vérification du bon fonctionnement des tests (simulation d'une erreur)
+
+Pour s'assurer que le système de tests détecte bien les erreurs, un test volontairement erroné a été ajouté (par exemple, en modifiant une assertion pour qu'elle échoue).  
+Lors de l'exécution, PHPUnit (ou Jest) affiche alors un message d'échec, ce qui permet de valider que la suite de tests fonctionne correctement.
+
+Exemple de résultat attendu lors d'un test échoué :
+
+![Test échoué volontairement](./images/test-fail-example.png)
+
+📝 Cette étape permet de vérifier que les tests signalent bien les erreurs dans le code, ce qui est essentiel pour la fiabilité du projet.
+
 ## Liens utiles
 
 - [Documentation PHP](https://www.php.net/manual/fr/)
