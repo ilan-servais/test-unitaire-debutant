@@ -86,6 +86,7 @@ ou (si le premier ne fonctionne pas sous Windows) :
 ```bash
 php vendor/bin/phpunit tests
 ```
+![tests PHPUnit](./images/phpunit-test.png)
 
 ### Tests JavaScript (Jest)
 
@@ -98,17 +99,7 @@ ou simplement :
 ```bash
 npm test
 ```
-
-## Captures d’écran et documentation
-
-À chaque étape importante (exécution des tests, erreurs, succès), prenez une capture d’écran et placez-la dans le dossier `images/`.  
-Intégrez-les dans ce README avec une explication claire.
-
-Exemple :
-
-```md
-![Succès des tests PHPUnit](./images/phpunit-success.png)
-```
+![tests](./images/phpunit-test2.png)
 
 ## Liens utiles
 
