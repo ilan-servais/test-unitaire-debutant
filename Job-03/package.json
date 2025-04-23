@@ -1,0 +1,15 @@
+{
+  "name": "job-03",
+  "version": "1.0.0",
+  "description": "Ce projet pédagogique propose deux calculatrices (une en PHP, une en JavaScript) et leur batterie de tests unitaires.",
+  "main": "calculator.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

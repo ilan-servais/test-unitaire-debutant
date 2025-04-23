@@ -1,0 +1,14 @@
+# Dépendances
+/vendor/
+
+# Fichiers générés par Composer
+composer.lock
+
+# Fichiers de configuration de l'IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Fichiers système
+.DS_Store
+Thumbs.db
