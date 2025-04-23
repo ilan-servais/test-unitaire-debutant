@@ -38,6 +38,7 @@ composer require --dev phpunit/phpunit
 ```
 
 ![Installation de PHPUnit](./images/02-phpunit-install.png)
+![Installation de PHPUnit](./images/02-phpunit-install-2.png)
 
 📝 Installation de PHPUnit, le framework de test que nous utiliserons pour écrire et exécuter nos tests unitaires en PHP.
 
